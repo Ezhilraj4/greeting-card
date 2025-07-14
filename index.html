@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To My Dear Yasiska 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🎶 Background Music -->
+  <audio autoplay loop hidden>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <!-- 💌 Card Section -->
+  <div class="card-container">
+    <div class="card" id="greetingCard">
+      <div class="card-front">
+        <h1>Click to Open 💌</h1>
+        <button onclick="openCard()">Open Card</button>
+      </div>
+      <div class="card-inside">
+        <h1>Dear Yasiska 💖</h1>
+        <p>This is a special greeting from your Ezhil 💖</p>
+        <p>We are studying together in Chettinadu Public School, and every moment with you is magical 🌟</p>
+        <p>I made this website just for you to show how special you are in my life 💝</p>
+        <p>With Love,<br>Ezhil ❤️</p>
+        <button onclick="closeCard()">Close Card</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openCard() {
+      document.getElementById("greetingCard").classList.add("open");
+    }
+
+    function closeCard() {
+      document.getElementById("greetingCard").classList.remove("open");
+    }
+  </script>
+
+</body>
+</html>
