@@ -9,8 +9,8 @@ body {
 }
 
 .card-container {
-  perspective: 1000px;
-  padding-top: 50px;
+  perspective: 100000px;
+  padding-top: 5000px;
 }
 
 .card {
